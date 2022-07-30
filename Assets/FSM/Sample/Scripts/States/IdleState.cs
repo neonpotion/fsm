@@ -28,5 +28,9 @@ public class IdleState : BaseActorState {
 	protected override void InitializeTransitionRules() {
 		AddTransitionRule(new FSM.Transition<StateType>(TransitionToRagdoll, StateType.RAGDOLL));
 	}
+	
+	protected override bool TransitionToRagdoll() {
+		return _assignedPlayerFSM.isRagdoll;
+	}
 
 }
