@@ -1,0 +1,15 @@
+{
+  "name": "com.neonpotion.fsm",
+  "version": "1.0.0",
+  "displayName": "FSM",
+  "description": "This is a basic fsm implementation",
+  "unity": "2019.1",
+ "keywords": [
+    "fsm",
+    "finite state machine"
+  ],
+  "author": {
+    "name": "Juan Gabriel De Jesus",
+    "url": "https://www.neonpotion.com"
+  }
+}
