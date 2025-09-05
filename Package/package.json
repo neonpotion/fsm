@@ -4,12 +4,19 @@
   "displayName": "FSM",
   "description": "This is a basic fsm implementation",
   "unity": "2019.1",
- "keywords": [
+  "keywords": [
     "fsm",
     "finite state machine"
   ],
   "author": {
     "name": "Juan Gabriel De Jesus",
     "url": "https://www.neonpotion.com"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Sample Code",
+      "description": "Contains sample ",
+      "path": "Samples~/"
+    }
+  ]
 }
